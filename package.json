@@ -14,11 +14,11 @@
   },
   "packageManager": "npm@10.5.2",
   "exports": {
-    "./sanity.config": "./sanity.config.js"
+    "./sanity.config": "./sanity.config.ts"
   },
   "overrides": {
     "lucide-react": {
-      "require": "./dist/esm/lucide-react.js"
+      "require": "./dist/esm/lucide-react.ts"
     }
   },
   "dependencies": {
